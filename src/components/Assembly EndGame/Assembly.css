@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    margin-top: -20px;
+    margin-top: 10px;
     text-align: center;
     color: #F9F4DA;
 }
@@ -39,11 +39,6 @@ section.status {
     justify-content: center;
     flex-direction: column;
     max-width: 450px;
-}
-
-.purpleStatus {
-    background-color: purple;
-    font-size: 0.3rem;
 }
 
 section.status p {
@@ -119,8 +114,7 @@ span.lang.lost::before {
     justify-content: center;
     margin-top: 20px;
     flex-wrap: wrap;
-    gap: 5px;
-    user-select: none;
+    gap: 5px
 }
 
 .keyboard button {
@@ -128,12 +122,8 @@ span.lang.lost::before {
     width: 40px;
     border-radius: 5px;
     background-color: #FCBA29;
-    font-size: 1rem;
+    font-size: 1.3rem;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 650;
 }
 
 .keyboard button:disabled {
@@ -172,7 +162,10 @@ footer button:hover {
     border: 3px solid #328AF1
 }
 
-
+.purpleStatus {
+    background-color: purple;
+    font-size: 0.8rem;
+}
 
 .dev {
     background-color: #0f171b;
